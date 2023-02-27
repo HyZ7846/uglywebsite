@@ -1,0 +1,101 @@
+/* Define styles for the body */
+body {
+    background-image: url("hacker.jpg");
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Define styles for the header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  /* Define styles for the main content */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000000;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+  }
+  
+ a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #666;
+}
+
+a.btn {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+  
+  /* Define styles for the footer */
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 10px;
+  }
+
+  .footer div {
+    display: flex;
+    align-items: center;
+  }
+
+  .footer p{
+    color: #fff;
+  }
+
+  .footer a{
+    color: #fff;
+  }
+  
+  #phone a:before {
+    content: "\1F4DE ";
+  }
+  
+  #email a:before {
+    content: "\2709 ";
+  }
+  
+  #follow a:before {
+    content: "\1F517 ";
+  }
+  
